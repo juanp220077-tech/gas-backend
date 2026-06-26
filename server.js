@@ -115,7 +115,7 @@ app.get('/', (req, res) => {
 // ========================================================
 // 🔌 8. CONEXIÓN A MONGO DB ATLAS Y APERTURA DE PUERTO
 // ========================================================
-const MONGO_URI = process.env.MONGO_URI || "tu_cadena_de_conexion_a_mongodb_atlas_aqui";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://juanp220077_db_user:P43nt32026@cluster0.1husfjv.mongodb.net/?appName=Cluster0";
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(MONGO_URI)
